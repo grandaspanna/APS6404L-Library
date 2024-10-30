@@ -10,9 +10,9 @@ I needed a mechanism to buffer substantial (well, relative for a microcontroller
 The APS6404L is easy to use and comes in a suitable form factor. My projects are using the 64Mbit version.
 
 Methods in the library include:
-begin() - initialises the code
-readByte() - reads a single byte from an address
-writeByte() - writes a single byte to an address
-readData() - reads multiple bytes from an address
-writeData() - writes multiple bytes to an address
-readChipID() - reads the chip ID information, populating fields in the object. Returns true if successful
+* begin() - initialises the code
+* readByte() - reads a single byte from an address
+* writeByte() - writes a single byte to an address
+* readData() - reads multiple bytes from an address
+* writeData() - writes multiple bytes to an address
+* readChipID() - reads the chip ID information, populating fields in the object. Returns true if successful
